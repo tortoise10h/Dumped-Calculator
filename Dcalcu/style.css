@@ -1,0 +1,134 @@
+/*Global style*/
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.5;
+    margin:0;
+    padding:0;
+}
+/*Header*/
+#header-id{
+    background:#333;
+    color:#f0f0f0;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 6fr 2fr;
+
+}
+#header-id .header-box{
+    padding:0 1em;
+}
+#header-id .red{
+    background:rgb(168, 37, 37);
+}
+#header-id .lightblue{
+    background:rgb(96, 185, 197);
+}
+#header-id .gray{
+    background:rgb(168, 157, 157);
+}
+.branding {
+    padding:0 1em;
+    align-self:center;
+}
+
+.branding .bg-highlight{
+    background:#1abc9c;
+    color:#f0f0f0;
+    font-size:1.3em;
+    padding:5px;
+    border-radius:5px;
+}
+.branding .web-name{
+    width:40%;
+    float:left;
+}
+.branding .web-title{
+    width:60%;
+    float:left;
+    margin-top:2.5em;
+    font-weight:bold;
+}
+.menu{
+    align-self:center;
+}
+.menu a{
+    color:#f0f0f0;
+    text-decoration:none;
+    font-size:1.2em;
+    padding:0 1em;
+    transition:0.4s ease-in-out;
+}
+.menu a:hover{
+    border-bottom:4px solid #1abc9c;
+}
+/*Main area*/
+#main-id{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+}
+/*calculator*/
+#calcu{
+    padding:3.2em;
+    background:#1abc9c;
+    justify-self:left;
+    margin:3px;
+    align-self:center;
+    border-radius:10px;
+    color:#fff;
+    font-weight:bold;
+}
+.input-box input[type="text"]{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:0.6em 1em;
+    border-radius:5px;
+    background:#f0f0f0;
+    transition:0.4s ease-in-out;
+}
+.input-box input[type="text"]:focus{
+    background:#fff;
+}
+.result-box{
+    background:#fff;
+    color:#333;
+    height:2em;
+    border-radius:5px;
+    margin-bottom:5px;
+    text-align:center;
+}
+.btn-1{
+    border:none;
+    background:#f0f0f0;
+    padding:10px 10px;
+    margin:7px 3px;
+    box-shadow:0 7px #ada9a9;
+    border-radius:5px;
+    outline:none;
+}
+.btn-1:active{
+    box-shadow:0 4px #ada9a9;
+    transform:translate(0,2px);
+}
+/*Footer*/
+#footer-id{
+    background:#333;
+    color:#f0f0f0;
+    text-align:center;
+    padding:1em;
+}
+#footer-id a{
+    text-decoration:none;
+    color:#f0f0f0;
+    font-weight:bold;
+    margin:0 8px;
+    transition:0.4s ease-in-out;
+}
+#footer-id a:hover{
+    background:#f0f0f0;
+    color:#333;
+    border-radius:5px;
+    padding:5px;
+}
